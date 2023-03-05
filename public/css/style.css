@@ -434,6 +434,8 @@ header.white-home .logo .black{
 .darkness .logo.white{
     display: block;
     height: 30px;
+    z-index: 5;
+    overflow: visible;
 }
 
 header.agency.white-home .logo.white{
@@ -605,6 +607,9 @@ header .logo img{
     -ms-transform: rotate(-90deg) translate(-90px, 8px);
     -o-transform: rotate(-90deg) translate(-90px, 8px);
     height: 30px;
+    z-index: 1;
+    overflow: visible;
+    opacity: 1;
 }
 
 header.second .down-arrow svg{
@@ -627,7 +632,7 @@ header .down-arrow svg{
     position: absolute;
     left: 40px;
     bottom: 45px;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 
 .down-arrow {
