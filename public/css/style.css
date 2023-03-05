@@ -146,7 +146,7 @@ a, a:hover, a:focus{
 }
 #precent {
     text-align: center;
-    color: #FFF;
+    color: #F43C18;
     line-height: 1;
     font-size: 8vw;
     position: absolute;
@@ -154,7 +154,6 @@ a, a:hover, a:focus{
     top: 50%;
     transform: translate(-50%, -50%);
     font-weight: 900;
-    mix-blend-mode: difference;
 }
 
 .sub-header nav{
