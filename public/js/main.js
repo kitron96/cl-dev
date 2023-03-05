@@ -633,8 +633,11 @@ function nav_type() {
 
 	if ( (nav_height + logo_height + 400) > window_height || window_width < 900 ){
 		$('header').addClass('mobile-version');
-	}else {
+        $('logo').addClass('mobile-logo');
+
+    }else {
 		$('header').removeClass('mobile-version');
+		$('logo').removeClass('mobile-logo');
 	}
 
 	$('.mobile-btn').on('click', function() {

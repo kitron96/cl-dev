@@ -1154,6 +1154,9 @@ footer p{
 .mobile-version .mobile-btn{
     display: inline-block;
 }
+.mobile-logo {
+    position: fixed !important;
+}
 
 .mobile-version .say-hello{
     display: none;
@@ -3027,7 +3030,7 @@ blockquote{
 
 
 /* Max Width 415  */
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 250px){
 
     .news .author-name, .news .news-date {
         font-size: 13px;
