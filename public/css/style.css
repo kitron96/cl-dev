@@ -372,7 +372,7 @@ header.second .logo .white{
 
 .darkness header.second .logo .white{
     display: inline-block;
-    height: 30px !important;
+    height: 30px;
 }
 
 .darkness header.second .logo .black{
@@ -433,14 +433,17 @@ header.white-home .logo .black{
 
 .darkness .logo.white{
     display: block;
+    height: 30px;
 }
 
 header.agency.white-home .logo.white{
     display: inline-block;
+    height: 30px;
 }
 
 header.agency.white-home .logo.white{
     display: inline-block;
+    height: 30px;
 }
 
 
