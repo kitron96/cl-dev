@@ -11,12 +11,11 @@
     <nav>
         <div class="nav-menu">
             <ul>
-                <li><a href="#/hero">Home.</a></li>
-                <li><a href="#/about">Over ons.</a></li>
-                <li><a href="#/offers">Diensten.</a></li>
-                <li><a href="#/news">Prijzen.</a></li>
-                <li><a href="#/news">Vacatures.</a></li>
-                <li><a href="#/contact">Contact.</a></li>
+                <li><a class="page" href="#/hero">Home</a></li>
+                <li><a class="page" href="#/about">Over ons</a></li>
+                <li><a class="page" href="#/offers">Diensten</a></li>
+                <li><a class="page" href="#/price">Prijzen</a></li>
+                <li><a class="page" href="#/contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -29,13 +28,13 @@
     <!-- Say Hello -->
     <a href="#/contact" class="say-hello">Say Hello</a>
     <!-- Language Links -->
-    <div class="follow-us d-none d-md-block">
-        <img class="follow" src="{{asset('images/icon/language.png')}}" width="20px" />
-        <ul class="social-links">
-            <li><a href="#">NL</a></li>
-            <li><a href="#">EN</a></li>
-            <li><a href="#">PL</a></li>
-        </ul>
+{{--    <div class="follow-us d-none d-md-block">--}}
+{{--        <img class="follow" src="{{asset('images/icon/language.png')}}" width="20px" />--}}
+{{--        <ul class="social-links">--}}
+{{--            <li><a href="#">NL</a></li>--}}
+{{--            <li><a href="#">EN</a></li>--}}
+{{--            <li><a href="#">PL</a></li>--}}
+{{--        </ul>--}}
 
-    </div>
+{{--    </div>--}}
 </header>

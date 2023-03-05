@@ -515,6 +515,11 @@ header.agency.white-home .logo.white{
     right: 0;
 }
 
+.current-page-menu {
+    text-decoration: line-through;
+    color: white;
+}
+
 
 /*------------------------ Hero Section ------------------------*/
 
@@ -568,6 +573,7 @@ header nav ul li a:hover{
 }
 
 nav .current_page_item{
+    color: #ffffff;
     text-decoration-line: line-through;
     transition: all ease 0.3s;
     -webkit-transition: all ease 0.3s;
@@ -799,8 +805,36 @@ header.second .follow-us i{
     -webkit-text-stroke: 0px !important;
 }
 
+.gradient-text-danger {
+    color: #EB0209FF;
+}
+
+.news:hover .gradient-text-danger {
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    color: #ffffff;
+}
+
 .white-text-title {
-    color: #fff !important;
+    color: #fff;
+}
+
+h4 {
+    display: inline-block;
+}
+
+.price-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-small {
+    font-size: 12px;
+    line-height: 0.6em;
+    color: #B5B5C3 !important;
 }
 
 .hero-info p span{
@@ -1563,6 +1597,8 @@ header.mobile-version.yes nav{
 
 .darkness .news {
     background: #131313;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -1591,10 +1627,11 @@ header.mobile-version.yes nav{
     opacity: 0;
 }
 
-.news:hover > .image{
+.news:hover > .image {
     visibility: visible;
     opacity: 1;
 }
+
 
 .news .outter{
     height: 100%;
@@ -1636,7 +1673,7 @@ header.mobile-version.yes nav{
     fill: #fff;
 }
 
-.news.filter:hover > .image:after{
+.news.filter:hover > .image:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -3334,8 +3371,38 @@ blockquote{
             }
 
 }
+
+
 .whoweare {
     background: rgb(41, 43, 44);
     padding-top: 40px;
     padding-bottom: 30px;
 }
+ul.features {
+    list-style-type: none;
+    text-align: left;
+    color: white;
+}
+li {
+    margin: 8px;
+}
+.fas {
+    margin-right: 4px;
+}
+.fa-check-circle {
+    color: #6ab04c;
+}
+.fa-times-circle {
+    color: #eb4d4b;
+}
+.news:hover .fa-times-circle {
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    color: #ffffff;
+
+}
+
+

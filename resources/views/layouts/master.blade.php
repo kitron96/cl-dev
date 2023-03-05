@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en" data-mobile-classic-layout="false" data-classic-layout="false" data-prev-animation="16" data-next-animation="15" data-random-animation="false">
 <head>
-    <title>coderslab.nl - Your next level of website building<</title>
+    <title>coderslab.nl - Your next level of website building</title>
     <meta charset="UTF-8">
     <meta name="description" content="coderslab.nl - Your next level of website building">
     <meta name="keywords" content="website, e-commerce, hosting">
