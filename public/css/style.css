@@ -372,7 +372,7 @@ header.second .logo .white{
 
 .darkness header.second .logo .white{
     display: inline-block;
-    height: 31px;
+    height: 30px !important;
 }
 
 .darkness header.second .logo .black{
