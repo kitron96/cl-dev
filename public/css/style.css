@@ -604,6 +604,7 @@ header .logo img{
     -moz-transform: rotate(-90deg) translate(-90px, 8px);
     -ms-transform: rotate(-90deg) translate(-90px, 8px);
     -o-transform: rotate(-90deg) translate(-90px, 8px);
+    height: 30px;
 }
 
 header.second .down-arrow svg{
