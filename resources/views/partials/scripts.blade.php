@@ -5,4 +5,6 @@
 <script src="{{asset('js/modernizr.min.js')}}"></script>
 <script src="{{asset('js/plugins.js')}}"></script>
 <script src="{{asset('js/main.js')}}"></script>
+<script src="{{ asset('js/cookie-notice.min.js') }}"></script>
+
 

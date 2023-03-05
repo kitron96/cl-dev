@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="{{asset('css/reset.css')}}"/>
 <link rel="stylesheet" href="{{asset('css/animations.css')}}"/>
 <link rel="stylesheet" href="{{asset('css/style.css')}}"/>
+<link rel="stylesheet" href="{{ asset('css/cookie.css') }}">
+
 
 <!-- Google Web fonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap" rel="stylesheet">
