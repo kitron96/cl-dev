@@ -1,7 +1,7 @@
 <header class="agency">
     <!-- Logo -->
     <div class="logo white">
-        <a href="/"><img src="{{asset('images/logo-white.png')}}" class="white" alt=""></a>
+        <a href="/"><img src="{{asset('images/logo.svg')}}" class="white" alt=""></a>
     </div>
     <!-- Navigation -->
     <div class="mobile-btn">
@@ -15,6 +15,7 @@
                 <li><a class="page" href="#/about">Over ons</a></li>
                 <li><a class="page" href="#/offers">Diensten</a></li>
                 <li><a class="page" href="#/price">Prijzen</a></li>
+{{--                <li><a class="page" href="https://jobs.coderslab.nl/">Werken bij</a></li>--}}
                 <li><a class="page" href="#/contact">Contact</a></li>
             </ul>
         </div>

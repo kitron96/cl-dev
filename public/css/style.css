@@ -372,6 +372,7 @@ header.second .logo .white{
 
 .darkness header.second .logo .white{
     display: inline-block;
+    height: 30px;
 }
 
 .darkness header.second .logo .black{
@@ -1074,7 +1075,6 @@ h4 {
 }
 
 .darkness .cta:hover > .lets span{
-
     background: linear-gradient(90deg, rgba(252,81,48,1) 0%, rgba(235,2,9,1) 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
