@@ -103,7 +103,7 @@ a, a:hover, a:focus{
     display: none;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 300px) {
     .img-responsive {
         display: none;
     }
