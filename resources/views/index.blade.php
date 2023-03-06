@@ -50,7 +50,7 @@
             </video>
             <div class="gif" style="background:url('{{asset('images/videos/slider.gif')}}') no-repeat center center fixed"></div>
         </div>
-        <div class="video-wrapper d-md-none">
+        <div class="video-wrapper d-none d-sm-block">
             <div class="gif" style="background:url('{{asset('images/videos/slider.gif')}}') no-repeat center center fixed"></div>
         </div>
 
