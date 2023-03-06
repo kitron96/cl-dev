@@ -34,14 +34,16 @@
                 <source src="{{asset('images/videos/slider-full.webm')}}" type="video/webm">
                 <source src="{{asset('images/videos/slider-full.mp4')}}" type="video/mp4">
             </video>
+            <div class="gif" style="background:url('{{asset('images/videos/slider.gif')}}) no-repeat center center fixed"></div>
         </div>
         <div class="video-wrapper d-none d-md-block d-lg-none">
             <video loop="" muted="" autoplay>
                 <source src="{{asset('images/videos/slider-720.webm')}}" type="video/webm">
                 <source src="{{asset('images/videos/slider-720.mp4')}}" type="video/mp4">
             </video>
+            <div class="gif" style="background:url('{{asset('images/videos/slider.gif')}}) no-repeat center center fixed"></div>
         </div>
-        <div class="video-wrapper d-none d-sm-block">
+        <div class="video-wrapper d-md-none">
             <div class="gif" style="background:url('{{asset('images/videos/slider.gif')}}') no-repeat center center fixed"></div>
         </div>
 
@@ -300,7 +302,7 @@
                             <div class="inne text-center">
                                 <a href="#" data-type="ajax-load">
                                     <h2 class="title">Maximaal</h2>
-{{--                                    <p class="text-small">Perfect for</p>--}}
+                                    <p class="text-small">Perfect for</p>
                                     <span class="gradient-text-danger">Vanaf <h4>€ 1500</h4></span>
                                 </a><br/><br/>
                                 <div class="text-left price-list">
