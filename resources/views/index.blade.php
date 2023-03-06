@@ -41,12 +41,6 @@
                 <source src="{{asset('images/videos/slider-720.mp4')}}" type="video/mp4">
             </video>
         </div>
-        <div class="video-wrapper d-none d-md-block">
-            <video loop="" muted="" autoplay>
-                <source src="{{asset('images/videos/slider-mobile.webm')}}" type="video/webm">
-                <source src="{{asset('images/videos/slider-mobile.mp4')}}" type="video/mp4">
-            </video>
-        </div>
         <div class="video-wrapper d-none d-sm-block">
             <div class="gif" style="background:url('{{asset('images/videos/slider.gif')}}') no-repeat center center fixed"></div>
         </div>
