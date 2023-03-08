@@ -56,7 +56,7 @@
                 <!-- page title -->
                 <div class="page-caption">
                     <h1 class="page-title"><span class="gradient-text">Over</span><br><span class="white-text-title">ons</span></h1>
-                    <h2 class="page-subtitle" >Your next level of website building</h2>
+                    <h2 class="page-subtitle">YYour next level of website building</h2>
                 </div>
                 <!-- Who we are -->
 
