@@ -10,20 +10,20 @@
         </div>
     </div>
 </div>
-<div class="video-wrapper d-none d-lg-block">
-    <video loop="" muted="" autoplay>
+<div class="video-wrapper d-none d-lg-block lazy">
+    <video loop="" muted="" autoplay >
         <source src="{{asset('images/videos/slider-full.webm')}}" type="video/webm">
         <source src="{{asset('images/videos/slider-full.mp4')}}" type="video/mp4">
     </video>
     <div class="gif" style="background:url('{{asset('images/videos/slider.gif')}}) no-repeat center center fixed"></div>
 </div>
-<div class="video-wrapper d-none d-md-block d-lg-none">
-    <video loop="" muted="" autoplay>
+<div class="video-wrapper d-none d-md-block d-lg-none lazy">
+    <video loop="" muted=""autoplay >
         <source src="{{asset('images/videos/slider-720.webm')}}" type="video/webm">
         <source src="{{asset('images/videos/slider-720.mp4')}}" type="video/mp4">
     </video>
-    <div class="gif" style="background:url('{{asset('images/videos/slider.gif')}}) no-repeat center center fixed"></div>
+    <div class="gif lazy" style="background:url('{{asset('images/videos/slider.gif')}}) no-repeat center center fixed"></div>
 </div>
 <div class="video-wrapper d-md-none">
-    <div class="gif" style="background:url('{{asset('images/videos/slider.gif')}}') no-repeat center center fixed"></div>
+    <div class="gif lazy" style="background:url('{{asset('images/videos/slider.gif')}}') no-repeat center center fixed"></div>
 </div>
