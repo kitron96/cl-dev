@@ -4,7 +4,7 @@
 
     <!-- HOME SECTION -->
     <section id="hero" class="pt-page page-layout hero agency">
-        @include('pages.hero')
+        @include('pages.home')
     </section>
 
     <!-- ABOUT SECTION-->
