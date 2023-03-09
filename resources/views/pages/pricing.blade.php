@@ -57,7 +57,7 @@
                     <div class="inne text-center">
                         <a href="#" data-type="ajax-load">
                             <h2 class="title">Maximaal</h2>
-                            <p class="text-small">Perfect for</p>
+{{--                            <p class="text-small">Perfect for</p>--}}
                             <span class="gradient-text-danger">Vanaf <h4>€ 1500</h4></span>
                         </a><br/><br/>
                         <div class="text-left price-list">
