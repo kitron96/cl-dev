@@ -29,16 +29,15 @@
 
     <!-- Page Content -->
     <main>
-        <section class="lg:px-8">
-            <div class="grid grid-flow-col">
-                <div class="col-span-1 hidden lg:block md:block">@include('components.menu')</div>
-                <div class="col-span-12">{{ $slot }}</div>
+        <section class="px-8">
+            <div class="flex justify-center">
+                <div class="col-span-1 lg:w-1/4 md:w-1/3 hidden lg:block md:block">@include('components.menu')</div>
+                <div class="col-span-12 lg:w-3/4 md:w-2/4 sm:w-full">{{ $slot }}</div>
             </div>
             <br/>
             @include('components.footer')
             <br/>
         </section>
-
     </main>
 </div>
 </body>
