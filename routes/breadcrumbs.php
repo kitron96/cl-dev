@@ -9,7 +9,8 @@ Breadcrumbs::for('dashboard', function (BreadcrumbTrail $trail) {
     $trail->push('Dashboard', route('dashboard'));
 });
 
-// Account
-Breadcrumbs::for('profile.edit', function (BreadcrumbTrail $trail) {
-    $trail->push('Account', route('profile.edit'));
+// Dashboard > Account
+Breadcrumbs::for('profile.edit', function ($trail) {
+    $trail->parent('dashboard');
+    $trail->push('Profile', route('profile.edit'));
 });
