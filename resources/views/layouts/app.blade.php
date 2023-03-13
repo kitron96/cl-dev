@@ -30,8 +30,9 @@
     <!-- Page Content -->
 
     <main>
-        <div class="flex mt-6 lg:ml-16 ml-8">
-            @include('components.breadcrumb')
+        <div class="flex mt-6 lg:ml-16 ml-12">
+{{--            @include('partials.breadcrumbs')--}}
+            {!! Breadcrumbs::render() !!}
         </div>
         <section class="px-8">
             <div class="flex justify-center">
