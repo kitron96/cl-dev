@@ -12,13 +12,16 @@
                     @if(session('status')==='two-factor-authentication-enabled')
                         <div class="text-green-700">Two Factor Authentication has been enabled for your account</div><br/>
                         <div>Scan this Qr Code into your authenticator app</div><br/>
-                        {!! request()->user()->TwoFactorQrCodeSvg() !!}<br/>
-                        <div>Recovery codes:</div><br/>
-                        @foreach(request()->user()->recoveryCodes() as $code) @endforeach
-                        {{ $code }}<br/>
+                        <a href="#" class="block max-h-0.5 w-2/6 p-6 bg-white border-b-red-600 rounded-lg flex justify-center">
+                            {!! request()->user()->TwoFactorQrCodeSvg() !!}
+
+                        </a><br/>
                     @endif
                     @if (request()->user()->two_factor_secret)
                             <p>You have Two Factor Authentication enabled</p><br/>
+                            <div>Recovery codes:</div>
+                            @foreach(request()->user()->recoveryCodes() as $code) @endforeach
+                            {{ $code }}<br/><br/>
                             <form action="/user/two-factor-authentication" method="POST">
                                 @csrf
                                 @method('DELETE')

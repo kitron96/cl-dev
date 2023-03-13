@@ -28,7 +28,11 @@
     @endif
 
     <!-- Page Content -->
+
     <main>
+        <div class="flex mt-6 lg:ml-16 ml-8">
+            @include('components.breadcrumb')
+        </div>
         <section class="px-8">
             <div class="flex justify-center">
                 <div class="col-span-1 lg:w-1/4 md:w-1/3 hidden lg:block md:block">@include('components.menu')</div>
